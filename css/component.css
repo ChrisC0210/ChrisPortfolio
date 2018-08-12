@@ -1,0 +1,409 @@
+/* 
+About Chris C.
+*/
+
+/* -------------------- */
+
+/* $Outline
+/* -------------------- */
+
+/**
+ * Global
+ * Elements
+ * Header
+ * About
+ * Quote
+ * Skill
+ * Experience
+ * Work
+ * Contact
+ * Footer
+ * Parallax graphic
+**/
+
+/* -------------------- */
+
+/* $Global
+-------------------- */
+
+/* -------------------- */
+
+/* $Elements
+-------------------- */
+
+/* background 
+-------------------- */
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/img_bg.jpg");
+    background-color: #F8E2E6;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(58deg, #D8848A 0%, #A3CEEE 100%);
+    opacity: 0.4;
+}
+
+/* btn
+-------------------- */
+
+/* icon btn */
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0 auto ;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Roboto', 'Cabin Sketch', cursive, arial, sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    background-color: #D8848A;
+    border: 0;
+    border-radius: 18px;
+    outline: 0;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    user-zoom: none;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    color: #fefefe;
+}
+
+.btn_align{
+    transform:translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .btn {
+    position: absolute;
+    text-align: center;
+    margin: 20px 0 0 300px;  
+    }
+}
+@media (max-width: 480px) {
+    .btn {
+        margin: 40px 0 0 160px;
+    }
+}
+
+.btn--primary,
+.btn--secondary{
+    color: #fefefe;
+}
+.btn--primary{
+    background-color: #D8848A;
+}
+.btn.btn--primary:hover,
+.btn.btn--primary:active{
+    background-color: #F8E2E6;
+}
+.btn.btn--secondary {
+    background-color: inherit;
+    border: 1px solid #D8848A;
+    color: #D8848A;
+}
+.btn.btn--secondary:hover,
+.btn.btn--secondary:active {
+    background-color: #A3CEEE;
+    color: #fefefe;
+}
+.btn.btn--lg {
+    font-size: 20px;
+    line-height: 56px;
+    height: 56px;
+    font-weight: 400;
+    border-radius: 28px;
+    padding: 0 64px;
+}
+
+.btn.btn--md {
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    font-weight: 400;
+    border-radius: 24px;
+    padding: 0 64px;
+}
+
+.btn.btn--sm {
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+    font-weight: 400;
+    border-radius: 16px;
+    padding: 0 32px;
+}
+
+.btn-group .btn {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.btn-group--center {
+    text-align: center;
+}
+
+/* icon btn */
+.icon-btn {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.icon-btn .icon {
+    display: block;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 80px;
+}
+
+/* -------------------- */
+
+/* $Header
+-------------------- */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff5d;
+}
+
+/* navebar
+-------------------- */
+
+.navbar {
+    /* height: 80px; */
+    /* border: 1px solid #000; */
+}
+.navbar--collapse{
+    margin: 0 -16px 0 -16px;
+}
+.navbar_social-bar {
+    color: #D8848A;
+    padding: 24px;
+    float: right;
+    /* border: 1px solid #000; */
+}
+
+@media (max-width: 768px) {
+    .navbar_social-bar {
+        padding: 12px;
+    }
+}
+
+.navbar_social-bar .icon-btn {
+    color: #D8848A;
+    transition: all 0.2s;
+}
+
+.navbar_social-bar .icon-btn:hover {
+    color: #fefefe;
+    transition: all 0.1s;
+}
+
+.navbar_nav {
+    float: left;
+}
+
+/* menu-toggle
+-------------------- */
+
+.menu-toggle {
+    /* width: 80px;
+    height: 80px; */
+    /* border: 1px solid #000; */
+    display: block;
+    padding: 24px;
+    padding-top: 26px;
+}
+@media (max-width: 768px){
+    .menu-toggle{
+        padding: 12px;
+        padding-top: 16px;
+    }
+}
+
+.menu-toggle span {
+    display: block;
+    height: 2px;
+    width: 30px;
+    border-radius: 2px;
+    background-color: #A3CEEE;
+    margin-bottom: 8px;
+    transition: all 0.2s;
+}
+
+.menu-toggle:hover span:nth-child(1) {
+    transform: translateX(30%);
+}
+
+.menu-toggle:hover span:nth-child(2) {
+    height: 6px;
+    border-radius: 6px;
+    background-color: #D8848A;
+}
+
+.menu-toggle:hover span:nth-child(3) {
+    transform: translateX(30%);
+}
+
+/* popup-menu
+-------------------- */
+
+.popup-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8E2E6;
+    transition: all 0.2s;
+    opacity: 1;
+    visibility: hidden;
+}
+
+#popup-overlay:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-menu_close {
+    padding: 24px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    transition: all 0.2s;
+    margin: 0 0 0 -16px;
+}
+
+.popup-menu_close:hover {
+    transform: rotate(180deg);
+}
+
+.popup-menu_close span {
+    width: 32px;
+    height: 2px;
+    background-color: #A3CEEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.popup-menu_close span:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(45deg);
+    height: 6px;
+    border-radius: 6px;
+}
+
+.popup-menu_close span:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    height: 6px;
+    border-radius: 6px;
+    background-color: rgba(216, 132, 138, 0.747);
+}
+
+.popup-menu_item {
+    display: block;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: #383838;
+    line-height: 80px;
+    transition: all 0.3s;
+}
+
+.popup-menu_item:hover {
+    font-size: 48px;
+    color: #A3CEEE;
+}
+
+/* $About
+-------------------- */
+
+.chris {
+    /* border: 1px solid #000; */
+    padding: 20vh 0 20vh 0;
+}
+@media (max-width: 480px) {
+    .chris {
+        padding: 80px 0 80px 0;
+    }
+}
+
+.chris_heading {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 100px;
+    font-weight: 700;
+    color: #A3CEEE;
+    /* text-align: center; */
+}
+@media (max-width: 768px) {
+    .chris_heading {
+    font-size: 64px;
+    text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .chris_heading {
+        font-size: 48px;
+        text-align: center;
+    }
+}
+
+/* $Quote
+-------------------- */
+
+/* $Skill
+-------------------- */
+
+/* $Experience
+-------------------- */
+
+/* $Work
+-------------------- */
+
+/* $Contact
+-------------------- */
+
+/* $Footer
+-------------------- */
+
+/* $Parallax graphic
+-------------------- */
