@@ -93,9 +93,9 @@ About Chris C.
     color: #fefefe;
 }
 
-.btn_align{
+/* .btn_align{
     transform:translateY(-50%);
-}
+} */
 
 @media (max-width: 768px) {
     .btn {
@@ -107,6 +107,14 @@ About Chris C.
 @media (max-width: 480px) {
     .btn {
         margin: 40px 0 0 160px;
+    }
+}
+@media (max-width: 376px) {
+    .btn {
+        /* margin: 40px 0 0 110px; */
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
     }
 }
 
