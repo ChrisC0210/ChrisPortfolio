@@ -416,11 +416,11 @@ template {
 /* background color */
 
 .bg-color-primary {
-    background-color: #D8848A;
+    background-color: #F8E2E6;
 }
 
 .bg-color-secondary {
-    background-color: #A3CEEE;
+    background-color: #DBEAF6;
 }
 
 .bg-color-black {
@@ -534,7 +534,12 @@ p {
     letter-spacing: 0;
     margin: 0px 0 16px 0;
 }
-
+.subtitle{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Cabin Sketch', cursive, 'Roboto', 'Raleway', arial, sans-serif;
+    margin: 24px 0 24px 0; 
+}
 /* link */
 
 a {
@@ -766,11 +771,11 @@ ul {
     float: right !important;
 }
 
-.u-push-left {
+.u-pull-left {
     float: left !important;
 }
 
-.u-push-center {
+.u-text-center {
     text-align: center !important;
 }
 
