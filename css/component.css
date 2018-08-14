@@ -66,7 +66,7 @@ About Chris C.
     display: inline-block;
     vertical-align: top;
     position: relative;
-    margin: 0 auto ;
+    margin: 0 auto;
     height: 36px;
     line-height: 36px;
     padding: 0 16px;
@@ -91,6 +91,7 @@ About Chris C.
 
 .btn:hover {
     color: #fefefe;
+    background-color: rgb(207, 120, 125);
 }
 
 /* .btn_align{
@@ -99,16 +100,18 @@ About Chris C.
 
 @media (max-width: 768px) {
     .btn {
-    position: absolute;
-    text-align: center;
-    margin: 20px 0 0 300px;  
+        position: absolute;
+        text-align: center;
+        margin: 20px 0 0 300px;
     }
 }
+
 @media (max-width: 480px) {
     .btn {
         margin: 40px 0 0 160px;
     }
 }
+
 @media (max-width: 376px) {
     .btn {
         /* margin: 40px 0 0 110px; */
@@ -119,26 +122,31 @@ About Chris C.
 }
 
 .btn--primary,
-.btn--secondary{
+.btn--secondary {
     color: #fefefe;
 }
-.btn--primary{
+
+.btn--primary {
     background-color: #D8848A;
 }
+
 .btn.btn--primary:hover,
-.btn.btn--primary:active{
+.btn.btn--primary:active {
     background-color: #F8E2E6;
 }
+
 .btn.btn--secondary {
     background-color: inherit;
     border: 1px solid #D8848A;
     color: #D8848A;
 }
+
 .btn.btn--secondary:hover,
 .btn.btn--secondary:active {
     background-color: #A3CEEE;
     color: #fefefe;
 }
+
 .btn.btn--lg {
     font-size: 20px;
     line-height: 56px;
@@ -176,6 +184,7 @@ About Chris C.
 }
 
 /* icon btn */
+
 .icon-btn {
     display: inline-block;
     width: 32px;
@@ -219,9 +228,11 @@ About Chris C.
     /* height: 80px; */
     /* border: 1px solid #000; */
 }
-.navbar--collapse{
+
+.navbar--collapse {
     margin: 0 -16px 0 -16px;
 }
+
 .navbar_social-bar {
     color: #D8848A;
     padding: 24px;
@@ -260,8 +271,9 @@ About Chris C.
     padding: 24px;
     padding-top: 26px;
 }
-@media (max-width: 768px){
-    .menu-toggle{
+
+@media (max-width: 768px) {
+    .menu-toggle {
         padding: 12px;
         padding-top: 16px;
     }
@@ -369,6 +381,7 @@ About Chris C.
     /* border: 1px solid #000; */
     padding: 20vh 0 20vh 0;
 }
+
 @media (max-width: 480px) {
     .chris {
         padding: 80px 0 80px 0;
@@ -382,12 +395,14 @@ About Chris C.
     color: #A3CEEE;
     /* text-align: center; */
 }
+
 @media (max-width: 768px) {
     .chris_heading {
-    font-size: 64px;
-    text-align: center;
+        font-size: 64px;
+        text-align: center;
     }
 }
+
 @media (max-width: 480px) {
     .chris_heading {
         font-size: 48px;
@@ -397,7 +412,6 @@ About Chris C.
 
 /* $Quote
 -------------------- */
-
 
 /* $Skill
 -------------------- */
