@@ -33,6 +33,7 @@ About Chris C.
 
 /* background 
 -------------------- */
+
 .bg {
     position: fixed;
     top: 0;
@@ -93,8 +94,8 @@ About Chris C.
     background-color: rgb(207, 120, 125);
 }
 
-.btn_align{
-    transform:translateY(-50%);
+.btn_align {
+    transform: translateY(-50%);
     text-align: center;
 }
 
@@ -193,6 +194,7 @@ About Chris C.
 .icon-btn .icon-adjust {
     font-size: 22px;
 }
+
 .icon-btn .icon {
     display: block;
     text-align: center;
@@ -412,16 +414,19 @@ About Chris C.
 
 /* $Quote
 -------------------- */
-.quote{
+
+.quote {
     background-color: #fefefe;
     padding: 80px 0 80px 0;
 }
-@media (max-width: 768px){
-.quote {
-    padding: 40px 0 40px 0;
+
+@media (max-width: 768px) {
+    .quote {
+        padding: 40px 0 40px 0;
+    }
 }
-}
-.quote_icon{
+
+.quote_icon {
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -432,48 +437,58 @@ About Chris C.
     color: #fefefe;
     margin: 0 auto 24px auto;
 }
-.quote_name{
+
+.quote_name {
     font-size: 30px;
     line-height: 60px;
     color: #D8848A;
     text-align: center;
 }
-.quote_text{
+
+.quote_text {
     font-size: 20px;
     line-height: 40px;
     color: #383838;
     text-align: center;
     margin: 0 0 24px 0;
 }
+
 /* $Skill
 -------------------- */
-.skill{
+
+.skill {
     padding: 80px 0 80px 0;
 }
-.skill-group{
+
+.skill-group {
     padding: 80px 0 80px 0;
 }
-.skill-card{
+
+.skill-card {
     /* border: 1px solid #000; */
     padding: 32px 0 32px 0;
 }
-.skill-card_inner{
+
+.skill-card_inner {
     background-color: #fefefe;
     border-radius: 4px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     padding: 24px;
 }
-.skill-card_title{
+
+.skill-card_title {
     color: #D8848A;
     font-family: 'Roboto', arial, sans-serif;
     margin: 0 0 8px 0;
 }
-.skill-card_text{
+
+.skill-card_text {
     color: #383838;
     font-family: 'Roboto', arial, sans-serif;
     margin: 0;
 }
-.skill-card_icon{
+
+.skill-card_icon {
     width: 64px;
     height: 64px;
     background-color: #fefefe;
@@ -483,7 +498,8 @@ About Chris C.
     top: 0%;
     left: 40%;
 }
-.skill-card_icon .image{
+
+.skill-card_icon .image {
     position: absolute;
     left: 50%;
     top: 25%;
@@ -491,6 +507,7 @@ About Chris C.
     max-width: 60%;
     max-height: 60%;
 }
+
 /* $Experience
 -------------------- */
 
