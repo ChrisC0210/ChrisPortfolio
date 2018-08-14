@@ -94,30 +94,28 @@ About Chris C.
     background-color: rgb(207, 120, 125);
 }
 
-/* .btn_align{
+.btn_align{
     transform:translateY(-50%);
-} */
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     .btn {
         position: absolute;
         text-align: center;
-        margin: 20px 0 0 300px;
+        margin: 20px 0 0 280px;
     }
 }
 
 @media (max-width: 480px) {
     .btn {
-        margin: 40px 0 0 160px;
+        margin: 20px 0 0 150px;
     }
 }
 
 @media (max-width: 376px) {
     .btn {
-        /* margin: 40px 0 0 110px; */
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
+        margin: 0 auto 0 90px;
     }
 }
 
@@ -193,6 +191,9 @@ About Chris C.
     font-size: 24px;
 }
 
+.icon-btn .icon-adjust {
+    font-size: 22px;
+}
 .icon-btn .icon {
     display: block;
     text-align: center;
@@ -218,7 +219,7 @@ About Chris C.
     left: 0;
     width: 100%;
     z-index: 100;
-    background-color: #ffffff5d;
+    background-color: #ffffffc9;
 }
 
 /* navebar
@@ -252,7 +253,7 @@ About Chris C.
 }
 
 .navbar_social-bar .icon-btn:hover {
-    color: #fefefe;
+    color: #383838;
     transition: all 0.1s;
 }
 
@@ -412,6 +413,39 @@ About Chris C.
 
 /* $Quote
 -------------------- */
+.quote{
+    background-color: #fefefe;
+    padding: 80px 0 80px 0;
+}
+@media (max-width: 768px){
+.quote {
+    padding: 40px 0 40px 0;
+}
+}
+.quote_icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #D8848A;
+    text-align: center;
+    line-height: 64px;
+    font-size: 32px;
+    color: #fefefe;
+    margin: 0 auto 24px auto;
+}
+.quote_name{
+    font-size: 30px;
+    line-height: 60px;
+    color: #D8848A;
+    text-align: center;
+}
+.quote_text{
+    font-size: 20px;
+    line-height: 40px;
+    color: #383838;
+    text-align: center;
+    margin: 0 0 24px 0;
+}
 
 /* $Skill
 -------------------- */
