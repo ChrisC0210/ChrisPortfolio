@@ -75,7 +75,7 @@ About Chris C.
     font-size: 14px;
     text-align: center;
     font-weight: 900;
-    font-family: 'Roboto', 'Cabin Sketch', cursive, arial, sans-serif;
+    font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif;
     letter-spacing: 0;
     text-decoration: none;
     background-color: #D8848A;
@@ -101,21 +101,9 @@ About Chris C.
 
 @media (max-width: 768px) {
     .btn {
-        position: absolute;
-        text-align: center;
-        margin: 20px 0 0 280px;
-    }
-}
-
-@media (max-width: 480px) {
-    .btn {
-        margin: 20px 0 0 150px;
-    }
-}
-
-@media (max-width: 376px) {
-    .btn {
-        margin: 0 auto 0 90px;
+        left: 50%;
+        transform: translate(-50%);
+        /*margin: 20px 0 0 280px;*/
     }
 }
 
@@ -363,7 +351,7 @@ About Chris C.
 .popup-menu_item {
     display: block;
     text-align: center;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Cabin Sketch', cursive, 'Open Sans', sans-serif, arial;
     font-size: 40px;
     font-weight: 700;
     color: #383838;
@@ -391,7 +379,7 @@ About Chris C.
 }
 
 .chris_heading {
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Cabin Sketch', cursive,'Open Sans', sans-serif, arial;
     font-size: 100px;
     font-weight: 700;
     color: #A3CEEE;
@@ -478,13 +466,15 @@ About Chris C.
 
 .skill-card_title {
     color: #D8848A;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Roboto', sans-serif, arial;
+    font-weight: 900;
     margin: 0 0 8px 0;
 }
 
 .skill-card_text {
     color: #383838;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Roboto', sans-serif, arial;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -496,7 +486,8 @@ About Chris C.
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 0%;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .skill-card_icon .image {
