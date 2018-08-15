@@ -541,6 +541,11 @@ p {
     font-family: 'Cabin Sketch', cursive, 'Open Sans', arial, sans-serif;
     margin: 24px 0 24px 0;
 }
+@media (max-width: 768px) {
+    .subtitle {
+        font-size: 40px;
+    }
+}
 
 /* link */
 

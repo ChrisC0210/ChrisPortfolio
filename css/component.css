@@ -427,10 +427,11 @@ About Chris C.
 }
 
 .quote_name {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 60px;
     color: #D8848A;
     text-align: center;
+    font-family: 'Cabin Sketch', cursive, 'Open Sans', arial, sans-serif;
 }
 
 .quote_text {
@@ -498,10 +499,90 @@ About Chris C.
     max-width: 60%;
     max-height: 60%;
 }
+@media (max-width: 768px) {
+    .skill-group{
+        padding-bottom: 0;
+    }
+}
 
 /* $Experience
 -------------------- */
-
+.experience{
+    padding: 80px 0 80px 0;
+    height: 800px;
+}
+/* timeline
+-------------------- */
+.timeline-group{
+    /*border: 1px solid #000 ;*/
+    max-width: 960px;
+    margin: 120px auto 0 auto;
+}
+.timeline {
+    width: 4px;
+    height: 100%;
+    background-color: #D8848A;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.timeline-cards_row:nth-child(odd){
+    display: flex;
+    justify-content: flex-start;
+}
+.timeline-cards_row:nth-child(even) {
+    display: flex;
+    justify-content: flex-end;
+}
+.timeline-card {
+    padding: 24px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    width: calc(50% - 24px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.timeline-card:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: #A3CEEE;
+    position: absolute;
+    top: 50%;
+}
+.timeline-cards_row:nth-child(odd) > :before{
+    transform: translate(50%,-50%);
+    right: -24px;
+}
+.timeline-cards_row:nth-child(even) > :before{
+    transform: translate(-50%,-50%);
+    left: -24px;
+}
+.timeline-cards_text{
+    margin:0;
+}
+@media (max-width: 768px){
+    .timeline{
+        left: 0;
+    }
+    .timeline-card{
+        width: calc(100% - 24px);
+        margin-bottom: 24px;
+    }
+    .timeline-cards_row:last-child .timeline-card{
+        margin-bottom: 0;
+    }
+    .timeline-cards_row:nth-child(odd){
+        justify-content: flex-end;
+    }
+    .timeline-cards_row:nth-child(odd) > :before{
+        transform: translate(-50%,-50%);
+        left: -24px;
+    }
+}
 /* $Work
 -------------------- */
 
@@ -512,4 +593,4 @@ About Chris C.
 -------------------- */
 
 /* $Parallax graphic
--------------------- */
+------------------- */
