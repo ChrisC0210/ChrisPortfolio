@@ -229,28 +229,34 @@ About Chris C.
 .text-btn.text-btn--lg:hover:before {
   width: 100%;
 }
+
 /* image
 -------------------- */
-.image{
+
+.image {
   width: 100%;
   display: block;
 }
 
 /* imgbox
 -------------------- */
-.imgbox{
+
+.imgbox {
   width: 100%;
   overflow: hidden;
 }
-.imgbox_inner{
+
+.imgbox_inner {
   width: 100%;
   padding-top: 100%;
   position: relative;
 }
+
 .imgbox_inner .imgbox_inner--4-3 {
   padding-top: calc(100% * 3 / 4);
 }
-.imgbox_inner .image{
+
+.imgbox_inner .image {
   position: absolute;
   top: 0;
   left: 0;
@@ -259,9 +265,11 @@ About Chris C.
   background-size: cover;
   background-position: center;
 }
+
 /* $Header
 -------------------- */
-.header{
+
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -572,7 +580,7 @@ About Chris C.
 .experience {
   padding: 80px 0 80px 0;
   height: 800px;
-  margin-bottom: 400px;
+  margin-bottom: 1200px;
 }
 
 @media(max-width: 768px) {
@@ -640,6 +648,20 @@ About Chris C.
   left: -24px;
 }
 
+.timeline-card_title {
+  color: #D8848A;
+  font-family: 'Roboto', sans-serif, arial;
+  font-weight: 900;
+  margin: 0 0 8px 0;
+}
+
+.timeline-card_title2 {
+  color: #A3CEEE;
+  font-family: 'Roboto', sans-serif, arial;
+  font-weight: 900;
+  margin: 0 0 8px 0;
+}
+
 .timeline-cards_text {
   margin: 0;
 }
@@ -671,19 +693,19 @@ About Chris C.
   padding: 80px 0 80px 0;
 }
 
-.work-item_intro{
+.work-item_intro {
   color: #383838;
-  font-family: 'Roboto',
-  sans-serif,
-  arial;
+  font-family: 'Roboto', sans-serif, arial;
   font-weight: bold;
   margin: 0;
 }
+
 /* $Contact
 -------------------- */
 
 /* $Footer
 -------------------- */
+
 .copyright {
   text-align: center;
   color: #fefefe;
