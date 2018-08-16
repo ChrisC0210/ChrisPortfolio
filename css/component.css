@@ -86,7 +86,7 @@ About Chris C.
   overflow: hidden;
   user-select: none;
   user-zoom: none;
-  transition: all 0.2s;
+  transition: all 200ms;
 }
 
 .btn:hover {
@@ -223,7 +223,7 @@ About Chris C.
   width: 0%;
   height: 2px;
   background-color: #A3CEEE;
-  transition: all 0.2s;
+  transition: all 200ms;
 }
 
 .text-btn.text-btn--lg:hover:before {
@@ -298,12 +298,12 @@ About Chris C.
 
 .navbar_social-bar .icon-btn {
   color: #D8848A;
-  transition: all 0.2s;
+  transition: all 200ms;
 }
 
 .navbar_social-bar .icon-btn:hover {
   color: #383838;
-  transition: all 0.1s;
+  transition: all 200ms;
 }
 
 .navbar_nav {
@@ -336,7 +336,7 @@ About Chris C.
   border-radius: 2px;
   background-color: #A3CEEE;
   margin-bottom: 8px;
-  transition: all 0.2s;
+  transition: all 200ms;
 }
 
 .menu-toggle:hover span:nth-child(1) {
@@ -363,7 +363,7 @@ About Chris C.
   width: 100%;
   height: 100%;
   background-color: #F8E2E6;
-  transition: all 0.2s;
+  transition: all 200ms;
   opacity: 1;
   visibility: hidden;
 }
@@ -378,7 +378,7 @@ About Chris C.
   width: 80px;
   height: 80px;
   display: block;
-  transition: all 0.2s;
+  transition: all 200ms;
   margin: 0 0 0 -16px;
 }
 
@@ -416,7 +416,7 @@ About Chris C.
   font-weight: 700;
   color: #383838;
   line-height: 80px;
-  transition: all 0.3s;
+  transition: all 200ms;
 }
 
 .popup-menu_item:hover {
