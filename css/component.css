@@ -63,30 +63,30 @@ About Chris C.
 /* icon btn */
 
 .btn {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0 auto;
-  height: 36px;
-  line-height: 36px;
-  padding: 0 16px;
-  min-width: 64px;
-  box-sizing: border-box;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 900;
-  font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif;
-  letter-spacing: 0;
-  text-decoration: none;
-  background-color: #D8848A;
-  border: 0;
-  border-radius: 18px;
-  outline: 0;
-  cursor: pointer;
-  overflow: hidden;
-  user-select: none;
-  user-zoom: none;
-  transition: all 200ms;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0 auto;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Open Sans', 'Cabin Sketch', cursive,'roboto', arial, sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    background-color: #D8848A;
+    border: 0;
+    border-radius: 18px;
+    outline: 0;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    user-zoom: none;
+    transition: all 200ms;
 }
 
 .btn:hover {
@@ -189,17 +189,17 @@ About Chris C.
 }
 /* text btn */
 .text-btn {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif;
-  letter-spacing: 0;
-  text-decoration: none;
-  color: #383838;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Cabin Sketch', cursive,'roboto', arial, sans-serif;
+    letter-spacing: 0;
+    text-decoration: none;
+    color: #383838;
 }
 .text-btn.text-btn--primary {
   color: #D8848A;
@@ -524,14 +524,14 @@ About Chris C.
 
 .skill-card_title {
   color: #D8848A;
-  font-family: 'Roboto', sans-serif, arial;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: 900;
   margin: 0 0 8px 0;
 }
 
 .skill-card_text {
   color: #383838;
-  font-family: 'Roboto', sans-serif, arial;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: bold;
   margin: 0;
 }
@@ -570,7 +570,7 @@ About Chris C.
   padding: 80px 0 80px 0;
   height: 800px;
   margin: auto;
-  padding: 20vh 0 300vh 0; /*要再調*/
+  padding: 20vh 0 400vh 0; /*要再調*/
 }
 
 @media(max-width: 768px) {
@@ -640,14 +640,14 @@ About Chris C.
 
 .timeline-card_title {
   color: #D8848A;
-  font-family: 'Roboto', sans-serif, arial;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif;
   font-weight: 900;
   margin: 0 0 8px 0;
 }
 
 .timeline-card_title2 {
   color: #A3CEEE;
-  font-family: 'Roboto', sans-serif, arial;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: 900;
   margin: 0 0 8px 0;
 }
@@ -682,7 +682,7 @@ About Chris C.
 }
 .work-item_intro {
   color: #383838;
-  font-family: 'Roboto', sans-serif, arial;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: bold;
   margin: 0;
 }
@@ -698,10 +698,10 @@ About Chris C.
 .work-item_text--right{
   text-align: right;
 }
-.work-item_title{
-  font-size: 48px;
-  font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif;
-  color: #383838;
+.work-item_title {
+    font-size: 48px;
+    font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif, 微軟正黑體;
+    color: #383838;
 }
 .work-item_title--right{
   margin-right: -80px;
