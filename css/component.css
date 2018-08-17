@@ -187,9 +187,7 @@ About Chris C.
   display: block;
   text-align: center;
 }
-
 /* text btn */
-
 .text-btn {
   display: inline-block;
   vertical-align: top;
@@ -203,55 +201,46 @@ About Chris C.
   text-decoration: none;
   color: #383838;
 }
-
 .text-btn.text-btn--primary {
   color: #D8848A;
 }
-
 .text-btn.text-btn--lg {
   font-size: 20px;
   line-height: 48px;
   height: 48px;
   font-weight: 900;
 }
-
 .text-btn.text-btn--lg:before {
-  contain: "";
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
+  height: 4px;
+  border-radius: 4px;
   background-color: #A3CEEE;
   transition: all 200ms;
 }
-
 .text-btn.text-btn--lg:hover:before {
   width: 100%;
 }
-
 /* image
 -------------------- */
-
 .image {
   width: 100%;
   display: block;
 }
-
 /* imgbox
 -------------------- */
-
 .imgbox {
   width: 100%;
   overflow: hidden;
 }
-
 .imgbox_inner {
   width: 100%;
   padding-top: 100%;
   position: relative;
 }
-
 .imgbox_inner .imgbox_inner--4-3 {
   padding-top: calc(100% * 3 / 4);
 }
@@ -581,7 +570,7 @@ About Chris C.
   padding: 80px 0 80px 0;
   height: 800px;
   margin: auto;
-  padding: 20vh 0 300vh 0;
+  padding: 20vh 0 300vh 0; /*要再調*/
 }
 
 @media(max-width: 768px) {
@@ -686,21 +675,44 @@ About Chris C.
     left: -24px;
   }
 }
-
 /* $Work
 -------------------- */
-
 .work {
-  padding: 80px 0 80px 0;
+  padding: 80px 0 0px 0;
 }
-
 .work-item_intro {
   color: #383838;
   font-family: 'Roboto', sans-serif, arial;
   font-weight: bold;
   margin: 0;
 }
-
+.work-list{
+  padding-top: 80px;
+}
+.work-item{
+  margin-bottom: 160px;
+}
+.work-item_text{
+  padding-top: 24px;
+}
+.work-item_text--right{
+  text-align: right;
+}
+.work-item_title{
+  font-size: 48px;
+  font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif;
+  color: #383838;
+}
+.work-item_title--right{
+  margin-right: -80px;
+}
+.work-item_title--left{
+  margin-right: -80px;
+}
+.work-item_intro{
+  font-size: 20px;
+  line-height: 32px;
+}
 /* $Contact
 -------------------- */
 
