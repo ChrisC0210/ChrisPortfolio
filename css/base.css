@@ -626,149 +626,33 @@ ul {
   /* color: #585757; */
 }
 
-.icon-mail:before {
-  content: '\e800';
-}
-
-/* '' */
-
-.icon-search:before {
-  content: '\e801';
-}
-
-/* '' */
-
-.icon-heart:before {
-  content: '\e802';
-}
-
-/* '' */
-
-.icon-mail-1:before {
-  content: '\e803';
-}
-
-/* '' */
-
-.icon-heart-empty:before {
-  content: '\e804';
-}
-
-/* '' */
-
-.icon-stackoverflow:before {
-  content: '\e805';
-}
-
-/* '' */
-
-.icon-emo-surprised:before {
-  content: '\e806';
-}
-
-/* '' */
-
-.icon-adjust:before {
-  content: '\e807';
-}
-
-/* '' */
-
-.icon-behance:before {
-  content: '\e808';
-}
-
-/* '' */
-
-.icon-art-gallery:before {
-  content: '\e809';
-}
-
-/* '' */
-
-.icon-quote-right:before {
-  content: '\e80a';
-}
-
-/* '' */
-
-.icon-quote-left:before {
-  content: '\e80b';
-}
-
-/* '' */
-
-.icon-emo-grin:before {
-  content: '\e80c';
-}
-
-/* '' */
-
-.icon-flag:before {
-  content: '\e80d';
-}
-
-/* '' */
-
-.icon-chat:before {
-  content: '\f03d';
-}
-
-/* '' */
-
-.icon-mail-alt:before {
-  content: '\f0e0';
-}
-
-/* '' */
-
-.icon-spotify:before {
-  content: '\f1bc';
-}
-
-/* '' */
-
-.icon-hand-spock-o:before {
-  content: '\f259';
-}
-
-/* '' */
-
-.icon-github:before {
-  content: '\f300';
-}
-
-/* '' */
-
-.icon-twitter:before {
-  content: '\f309';
-}
-
-/* '' */
-
-.icon-facebook-squared:before {
-  content: '\f30e';
-}
-
-/* '' */
-
-.icon-linkedin:before {
-  content: '\f318';
-}
-
-/* '' */
-
-.icon-dribbble:before {
-  content: '\f31b';
-}
-
-/* '' */
-
-.icon-behance-1:before {
-  content: '\f34e';
-}
-
-/* '' */
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-search:before { content: '\e801'; } /* '' */
+.icon-heart:before { content: '\e802'; } /* '' */
+.icon-mail-1:before { content: '\e803'; } /* '' */
+.icon-heart-empty:before { content: '\e804'; } /* '' */
+.icon-stackoverflow:before { content: '\e805'; } /* '' */
+.icon-emo-surprised:before { content: '\e806'; } /* '' */
+.icon-adjust:before { content: '\e807'; } /* '' */
+.icon-behance:before { content: '\e808'; } /* '' */
+.icon-art-gallery:before { content: '\e809'; } /* '' */
+.icon-quote-right:before { content: '\e80a'; } /* '' */
+.icon-quote-left:before { content: '\e80b'; } /* '' */
+.icon-emo-grin:before { content: '\e80c'; } /* '' */
+.icon-flag:before { content: '\e80d'; } /* '' */
+.icon-up-open:before { content: '\e80e'; } /* '' */
+.icon-chat:before { content: '\f03d'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-dribbble-1:before { content: '\f17d'; } /* '' */
+.icon-spotify:before { content: '\f1bc'; } /* '' */
+.icon-medium:before { content: '\f23a'; } /* '' */
+.icon-hand-spock-o:before { content: '\f259'; } /* '' */
+.icon-github:before { content: '\f300'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook-squared:before { content: '\f30e'; } /* '' */
+.icon-linkedin:before { content: '\f318'; } /* '' */
+.icon-dribbble:before { content: '\f31b'; } /* '' */
+.icon-behance-1:before { content: '\f34e'; } /* '' */
 
 /* -------------------- */
 
