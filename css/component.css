@@ -63,30 +63,30 @@ About Chris C.
 /* icon btn */
 
 .btn {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    margin: 0 auto;
-    height: 36px;
-    line-height: 36px;
-    padding: 0 16px;
-    min-width: 64px;
-    box-sizing: border-box;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 900;
-    font-family: 'Open Sans', 'Cabin Sketch', cursive,'roboto', arial, sans-serif;
-    letter-spacing: 0;
-    text-decoration: none;
-    background-color: #D8848A;
-    border: 0;
-    border-radius: 18px;
-    outline: 0;
-    cursor: pointer;
-    overflow: hidden;
-    user-select: none;
-    user-zoom: none;
-    transition: all 200ms;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0 auto;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Open Sans', 'Cabin Sketch', cursive, 'roboto', arial, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+  background-color: #D8848A;
+  border: 0;
+  border-radius: 18px;
+  outline: 0;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+  user-zoom: none;
+  transition: all 200ms;
 }
 
 .btn:hover {
@@ -187,29 +187,34 @@ About Chris C.
   display: block;
   text-align: center;
 }
+
 /* text btn */
+
 .text-btn {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Open Sans', 'Cabin Sketch', cursive,'roboto', arial, sans-serif;
-    letter-spacing: 0;
-    text-decoration: none;
-    color: #383838;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Open Sans', 'Cabin Sketch', cursive, 'roboto', arial, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #383838;
 }
+
 .text-btn.text-btn--primary {
   color: #D8848A;
 }
+
 .text-btn.text-btn--lg {
   font-size: 20px;
   line-height: 48px;
   height: 48px;
   font-weight: 900;
 }
+
 .text-btn.text-btn--lg:before {
   content: "";
   position: absolute;
@@ -221,26 +226,33 @@ About Chris C.
   background-color: #A3CEEE;
   transition: all 200ms;
 }
+
 .text-btn.text-btn--lg:hover:before {
   width: 100%;
 }
+
 /* image
 -------------------- */
+
 .image {
   width: 100%;
   display: block;
 }
+
 /* imgbox
 -------------------- */
+
 .imgbox {
   width: 100%;
   overflow: hidden;
 }
+
 .imgbox_inner {
   width: 100%;
   padding-top: 100%;
   position: relative;
 }
+
 .imgbox_inner .imgbox_inner--4-3 {
   padding-top: calc(100% * 3 / 4);
 }
@@ -290,6 +302,18 @@ About Chris C.
 @media (max-width: 768px) {
   .navbar_social-bar {
     padding: 12px;
+  }
+  .navbar--collapse {
+    margin: 12px -12px 0 -12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar_social-bar {
+    padding: 10px;
+  }
+  .navbar--collapse {
+    margin: 12px -12px 0 -12px;
   }
 }
 
@@ -570,7 +594,8 @@ About Chris C.
   padding: 80px 0 80px 0;
   height: 800px;
   margin: auto;
-  padding: 20vh 0 400vh 0; /*要再調*/
+  padding: 20vh 0 400vh 0;
+  /*要再調*/
 }
 
 @media(max-width: 768px) {
@@ -675,44 +700,56 @@ About Chris C.
     left: -24px;
   }
 }
+
 /* $Work
 -------------------- */
+
 .work {
   padding: 80px 0 0px 0;
 }
+
 .work-item_intro {
   color: #383838;
   font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: bold;
   margin: 0;
 }
-.work-list{
+
+.work-list {
   padding-top: 80px;
 }
-.work-item{
+
+.work-item {
   margin-bottom: 160px;
 }
-.work-item_text{
+
+.work-item_text {
   padding-top: 24px;
 }
-.work-item_text--right{
+
+.work-item_text--right {
   text-align: right;
 }
+
 .work-item_title {
-    font-size: 48px;
-    font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif, 微軟正黑體;
-    color: #383838;
+  font-size: 56px;
+  font-family: 'Open Sans', 'Cabin Sketch', cursive, arial, sans-serif, 微軟正黑體;
+  color: #D8848A;
 }
-.work-item_title--right{
+
+.work-item_title--right {
   margin-right: -80px;
 }
-.work-item_title--left{
-  margin-right: -80px;
+
+.work-item_title--left {
+  margin-left: -80px;
 }
-.work-item_intro{
+
+.work-item_intro {
   font-size: 20px;
   line-height: 32px;
 }
+
 /* $Contact
 -------------------- */
 
