@@ -239,6 +239,35 @@ About Chris C.
   display: block;
 }
 
+.image_gray {
+  overflow: hidden;
+  background-color: #fff;
+  color: #383838;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/img_bg.jpg");
+  background-color: #F8E2E6;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(58deg, #D8848A 0%, #A3CEEE 100%);
+  opacity: 0.4;
+}
+
 /* imgbox
 -------------------- */
 
@@ -253,7 +282,7 @@ About Chris C.
   position: relative;
 }
 
-.imgbox_inner .imgbox_inner--4-3 {
+.imgbox_inner.imgbox_inner--4-3 {
   padding-top: calc(100% * 3 / 4);
 }
 
@@ -533,7 +562,7 @@ About Chris C.
 }
 
 .skill-group {
-  padding: 80px 0 80px 0;
+  padding: 56px 0 80px 0;
 }
 
 .skill-card {
@@ -724,6 +753,12 @@ About Chris C.
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .work {
+    padding: 40px 0 40px 0;
+  }
+}
+
 .work-item_intro {
   color: #383838;
   font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
@@ -732,7 +767,7 @@ About Chris C.
 }
 
 .work-list {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .work-item {
@@ -766,13 +801,43 @@ About Chris C.
   line-height: 32px;
 }
 
+@media (max-width: 768px) {
+  .work-list {
+    padding-top: 24px;
+  }
+  .work-item {
+    margin-bottom: 48px;
+  }
+  .work-item_text--right {
+    text-align: left;
+  }
+  .work-item_title {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 8px 0;
+  }
+  .work-item_title--right {
+    margin-right: 0px;
+  }
+  .work-item_title--left {
+    margin-left: 0px;
+  }
+}
+
 /* $Contact
 -------------------- */
+
+.contact {
+  padding: 80px 0 80px 0;
+  margin: auto;
+}
 
 /* $Footer
 -------------------- */
 
 .copyright {
+  padding: 24px 0 24px 0;
+  margin: auto;
   text-align: center;
   color: #fefefe;
   font-size: 14px;
