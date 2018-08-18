@@ -527,7 +527,9 @@ About Chris C.
 -------------------- */
 
 .skill {
+  padding-top: 80px;
   padding: 80px 0 80px 0;
+  margin: auto;
 }
 
 .skill-group {
@@ -540,7 +542,7 @@ About Chris C.
 }
 
 .skill-card_inner {
-  background-color: #fefefe;
+  background-color: #fefefeb4;
   border-radius: 4px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   padding: 24px;
@@ -557,7 +559,7 @@ About Chris C.
   color: #383838;
   font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: bold;
-  margin: 0;
+  margin: 0px;
 }
 
 .skill-card_icon {
@@ -583,7 +585,7 @@ About Chris C.
 
 @media (max-width: 768px) {
   .skill-group {
-    padding-bottom: 0;
+    padding-bottom: 0px;
   }
 }
 
@@ -592,10 +594,9 @@ About Chris C.
 
 .experience {
   padding: 80px 0 80px 0;
-  height: 800px;
+  /* height: 800px; */
   margin: auto;
-  padding: 20vh 0 400vh 0;
-  /*要再調*/
+  /* padding: 20vh 0 400vh 0; 要再調 */
 }
 
 @media(max-width: 768px) {
@@ -610,12 +611,13 @@ About Chris C.
 .timeline-group {
   /*border: 1px solid #000 ;*/
   max-width: 960px;
-  margin: 120px auto 0 auto;
+  margin: 80px auto 0 auto;
 }
 
 .timeline {
-  width: 4px;
-  height: 100%;
+  width: 8px;
+  height: 103%;
+  border-radius: 4px;
   background-color: #D8848A;
   position: absolute;
   top: 0;
@@ -636,10 +638,11 @@ About Chris C.
 
 .timeline-card {
   padding: 24px;
-  background-color: #fefefe;
+  background-color: #fefefeb4;
   border-radius: 4px;
   width: calc(50% - 24px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(24px)
 }
 
 .timeline-card:before {
@@ -648,7 +651,7 @@ About Chris C.
   height: 16px;
   border-radius: 50%;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  background-color: #A3CEEE;
+  background-color: #648fb1;
   position: absolute;
   top: 50%;
 }
@@ -665,20 +668,32 @@ About Chris C.
 
 .timeline-card_title {
   color: #D8848A;
+  font-size: 24px;
   font-family: 'Open Sans', 'roboto', arial, sans-serif;
   font-weight: 900;
-  margin: 0 0 8px 0;
+  margin: 0;
 }
 
 .timeline-card_title2 {
-  color: #A3CEEE;
+  color: #648fb1;
+  font-size: 18px;
   font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   font-weight: 900;
-  margin: 0 0 8px 0;
+  margin: 0;
 }
 
-.timeline-cards_text {
+.timeline-card_company {
+  color: #648fb1;
+  font-size: 18px;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
   margin: 0;
+}
+
+.timeline-card_text {
+  color: #383838;
+  font-size: 16px;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
+  margin: 0 0 8px 0;
 }
 
 @media (max-width: 768px) {
@@ -705,7 +720,8 @@ About Chris C.
 -------------------- */
 
 .work {
-  padding: 80px 0 0px 0;
+  padding: 80px 0 80px 0;
+  margin: auto;
 }
 
 .work-item_intro {
