@@ -840,6 +840,12 @@ About Chris C.
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 0 40px 0;
+  }
+}
+
 .form {
   max-width: 600px;
   margin: 0 auto 0 auto;
@@ -900,6 +906,33 @@ About Chris C.
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #fefefe;
+}
+
+/* info
+-------------------- */
+
+.divide-text {
+  font-size: 32px;
+  font-family: 'Cabin Sketch', cursive, 'Open Sans', arial, sans-serif;
+  text-align: center;
+  color: #383838;
+  margin: 16px 0 16px 0;
+}
+
+.divide-text2 {
+  font-size: 20px;
+  font-family: 'Cabin Sketch', cursive, 'Open Sans', arial, sans-serif;
+  text-align: center;
+  color: #383838;
+  margin: 16px 0 16px 0;
+}
+
+.info {
+  font-size: 20px;
+  line-height: 40px;
+  color: #D8848A;
+  text-align: center;
+  font-family: 'Open Sans', arial, sans-serif;
 }
 
 /* $Footer
