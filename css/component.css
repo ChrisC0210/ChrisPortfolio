@@ -281,11 +281,11 @@ About Chris C.
 .fab_icon_img {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 10%;
   transform: translate(-50%);
   max-width: 60%;
   max-height: 60%;
-  font-size: 30px;
+  font-size: 44px;
   color: #fefefe;
   font-weight: bold;
 }
