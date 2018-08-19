@@ -245,6 +245,12 @@ About Chris C.
   color: #383838;
 }
 
+.image_work {
+  width: 100%;
+  display: block;
+  filter: opacity(80%) blur(2px);
+}
+
 .bg {
   position: fixed;
   top: 0;
@@ -312,10 +318,12 @@ About Chris C.
 /* navebar
 -------------------- */
 
+/*
 .navbar {
-  /* height: 80px; */
-  /* border: 1px solid #000; */
+  height: 80px;
+  border: 1px solid #000;
 }
+*/
 
 .navbar--collapse {
   margin: 0 -16px 0 -16px;
@@ -830,6 +838,68 @@ About Chris C.
 .contact {
   padding: 80px 0 80px 0;
   margin: auto;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  color: #fefefe;
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea {
+  padding: 8px 16px;
+  display: inline-block;
+  border: 2px solid #fefefe;
+  border-radius: 4px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 8px 0 24px 0;
+  background-color: inherit;
+  color: #fefefe;
+}
+
+.form input[type="text"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: 0;
+  border: 2px solid #A3CEEE;
+}
+
+.form input {
+  margin: 8 0 24px 0;
+  display: inline-block;
+  vertical-align: middle;
+  color: #F8E2E6;
+}
+
+.form_btn-group {
+  margin-top: 32px;
+}
+
+.form textarea {
+  resize: none;
+  /*textarea fixed*/
+}
+
+::placeholder {
+  color: #fefefe;
+  opacity: 0.4;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fefefe;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fefefe;
 }
 
 /* $Footer

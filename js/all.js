@@ -5,4 +5,5 @@ $(function () {
     var t = $('#' + about).offset().top;
     $(window).scrollTop(t);
   }
-})
+})
+//錨點
