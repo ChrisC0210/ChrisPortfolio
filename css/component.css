@@ -99,6 +99,38 @@ About Chris C.
   text-align: center;
 }
 
+.btn2 {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 36px;
+  line-height: 40px;
+  min-width: 160px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Open Sans', 'Cabin Sketch', cursive, 'roboto', arial, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+  background-color: #D8848A;
+  border: 0;
+  border-radius: 18px;
+  outline: 0;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+  user-zoom: none;
+  transition: all 200ms;
+}
+
+.btn2:hover {
+  color: #fefefe;
+  background-color: rgb(207, 120, 125);
+}
+
 @media (max-width: 768px) {
   .btn {
     left: 50%;
@@ -905,7 +937,7 @@ About Chris C.
 }
 
 .form_btn-group {
-  margin-top: 32px;
+  margin-top: 8px;
 }
 
 .form textarea {
@@ -937,7 +969,7 @@ About Chris C.
   font-family: 'Cabin Sketch', cursive, 'Open Sans', arial, sans-serif;
   text-align: center;
   color: #383838;
-  margin: 16px 0 16px 0;
+  margin: 24px 0 16px 0;
 }
 
 .divide-text2 {
