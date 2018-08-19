@@ -17,7 +17,7 @@ $(document).ready(function () {
   //FAB
   $(".fab_icon").click(function () {
     $("html,body").animate({
-      scrollTop: $("#fabTop").offset().top
+      scrollTop: 0
     }, 100);
   });
 })
