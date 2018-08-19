@@ -263,6 +263,33 @@ About Chris C.
   width: 100%;
 }
 
+/* fab btn */
+
+.fab_icon {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  background-color: #648fb1;
+  border-radius: 50%;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 80%;
+  left: 90%;
+  transform: translate(-50%);
+}
+
+.fab_icon_img {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%);
+  max-width: 60%;
+  max-height: 60%;
+  font-size: 30px;
+  color: #fefefe;
+  font-weight: bold;
+}
+
 /* image
 -------------------- */
 

@@ -14,4 +14,10 @@ $(document).ready(function () {
   if (screen.width > 768) {
     new WOW().init();
   }
+  //FAB
+  $(".fab_icon").click(function () {
+    $("html,body").animate({
+      scrollTop: $("#fabTop").offset().top
+    }, 100);
+  });
 })
