@@ -297,6 +297,13 @@ About Chris C.
   }
 }
 
+@media (max-width: 375px) {
+  .fab_icon {
+    top: 88%;
+    left: 80%;
+  }
+}
+
 /* image
 -------------------- */
 
