@@ -1,9 +1,17 @@
-$(function () {
-  var url = window.location.toString();
-  var id = url.split('#')[1];
-  if (id) {
-    var t = $('#' + about).offset().top;
-    $(window).scrollTop(t);
+$(document).ready(function () {
+
+  //header color changed
+  $(window).on("scroll", function () {
+    var scrollDistance = $(window).scrollTop();
+    var $header = $(".js-header");
+    if (scrollDistance > 80) {
+      $header.addClass("header--colored");
+    } else {
+      $header.removeClass("header--colored");
+    }
+  })
+  //wow plugin setup
+  if (screen.width > 768) {
+    new WOW().init();
   }
-})
-//錨點
+})

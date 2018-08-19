@@ -9,7 +9,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/chiandeye.ico" />
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="js/all.js">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/component.css">
 
 </head>
@@ -17,7 +17,7 @@
 <body>
   <div class="wrapper">
     <div class="bg bg-color-white"></div>
-    <header class="header">
+    <header class="header js-header">
       <div class="container">
         <div class="navbar navbar--collapse  clearfix">
           <div class="social-bar navbar_social-bar">
@@ -75,15 +75,14 @@
       <div class="chris">
         <div class="container">
           <div class="chris_content">
-            <h1 class="chris_heading">
+            <h1 class="chris_heading wow hinge">
               HELLO!
-              <br>I'm CHRIS C.
-            </h1>
-          </div>
-          <div class="container">
-            <a href="https://chiandeye.myportfolio.com/contact" target="_blank" class="btn btn_align">
-              GET IN TOUCH
-            </a>
+              <br>I'm CHRIS C.</h1>
+            <div class="container wow bounce" data-wow-delay="2s">
+              <a href="https://chiandeye.myportfolio.com/contact" target="_blank" class="btn btn_align">
+                GET IN TOUCH
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -96,7 +95,7 @@
                 <div class="quote_icon">
                   <i class=" icon-emo-grin"></i>
                 </div>
-                <div class="quote_name">
+                <div class="quote_name wow tada">
                   <i class="icon-art-gallery" id="#About"> </i>About Chris C.
                 </div>
                 <p class="quote_text">
@@ -115,11 +114,11 @@
       <!-- skill -->
       <div class="skill bg-color-secondary">
         <div class="container">
-          <h2 class="subtitle u-text-center">HER SKILLS</h2>
+          <h2 class="subtitle u-text-center wow bounce" data-wow-delay="0.3s">HER SKILLS</h2>
           <div class="skill-group">
             <div class="row">
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.3s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">HTML</h4>
                     <p class="skill-card_text"> - 可熟練使用。</br> - 了解基本架構，具備RWD思維。</p>
@@ -130,7 +129,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.6s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">CSS</h4>
                     <p class="skill-card_text"> - 可熟練使用。</br> - 了解基本架構，具備RWD思維。</p>
@@ -143,7 +142,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.3s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">JavaScript</h4>
                     <p class="skill-card_text"> - 熟悉。</br> - 用來設計交互效果。</p>
@@ -154,7 +153,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.6s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">Sketch</h4>
                     <p class="skill-card_text"> - 可熟練使用。</br> - 用來設計介面：繪製 icon、Wireframe、Prototype 產出。</p>
@@ -167,7 +166,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.3s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">XD</h4>
                     <p class="skill-card_text"> - 可熟練使用。</br> - 用來設計介面：繪製 icon、Wireframe、Prototype 產出。</p>
@@ -178,7 +177,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.6s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">Photoshop</h4>
                     <p class="skill-card_text"> - 可熟練使用。</br> - 用來繪圖、製作gif、影像合成、圖像處理。</p>
@@ -191,7 +190,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.3s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">Illustrator</h4>
                     <p class="skill-card_text"> - 可熟練使用。</br> - 用來繪圖、icon繪製、平面設計、印刷品輸出。</p>
@@ -202,7 +201,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="skill-card">
+                <div class="skill-card wow bounceInUp" data-wow-delay="0.6s">
                   <div class="skill-card_inner">
                     <h4 class="skill-card_title">Illustration</h4>
                     <p class="skill-card_text"> - 使用工具：Illustrator 、Photoshop。 </br> - 擅長風格：可愛帶點童趣的畫風，大多以圖像搭配文案的方式創作。</p>
@@ -219,12 +218,12 @@
       <!-- Experience -->
       <div class="experience">
         <div class="container">
-          <h2 class="subtitle u-text-center" style="color: #DBEAF6;">HER EXPERIENCE</h2>
+          <h2 class="subtitle u-text-center wow tada" style="color: #DBEAF6;">HER EXPERIENCE</h2>
           <div class="timeline-group">
             <div class="timeline"></div>
             <div class="timeline-cards">
               <!--experience 1-->
-              <div class="timeline-cards_row">
+              <div class="timeline-cards_row wow bounceInUp">
                 <div class="timeline-card">
                   <h6 class="timeline-card_title2">Aug 2015 - Present</h6>
                   <h4 class="timeline-card_title">illustrator</h4>
@@ -238,7 +237,7 @@
                 </div>
               </div>
               <!--experience 2-->
-              <div class="timeline-cards_row">
+              <div class="timeline-cards_row wow bounceInUp">
                 <div class="timeline-card">
                   <h6 class="timeline-card_title2">Aug 2017 - Jun 2018</h6>
                   <h4 class="timeline-card_title">Semantic Analysis Engineer</h4>
@@ -250,7 +249,7 @@
                 </div>
               </div>
               <!--experience 3-->
-              <div class="timeline-cards_row">
+              <div class="timeline-cards_row wow bounceInUp">
                 <div class="timeline-card">
                   <h6 class="timeline-card_title2">Nov 2016 - Jul 2017</h6>
                   <h4 class="timeline-card_title">UI/UX Designer</h4>
@@ -264,7 +263,7 @@
                 </div>
               </div>
               <!--experience 4-->
-              <div class="timeline-cards_row">
+              <div class="timeline-cards_row wow bounceInUp">
                 <div class="timeline-card">
                   <h6 class="timeline-card_title2">Aug 2013 - Dec 2013</h6>
                   <h4 class="timeline-card_title">Medical Technologist Intern</h4>
@@ -284,9 +283,9 @@
       <!-- Work -->
       <div class="work bg-color-secondary">
         <div class="container">
-          <h2 class="subtitle u-text-center">HER WORKS</h2>
+          <h2 class="subtitle u-text-center wow tada">HER WORKS</h2>
           <!--list 1-->
-          <div class="work-list">
+          <div class="work-list wow fadeInUp">
             <div class="work-item">
               <div class="row">
                 <div class="col-sm-6 col-sm-push-5">
@@ -307,7 +306,7 @@
             </div>
           </div>
           <!--list 2-->
-          <div class="work-list">
+          <div class="work-list wpw fadeInUp">
             <div class="work-item">
               <div class="row">
                 <div class="col-sm-6  col-sm-push-1">
@@ -331,7 +330,7 @@
             </div>
           </div>
           <!--list 3-->
-          <div class="work-list">
+          <div class="work-list wow fadeInUp">
             <div class="work-item">
               <div class="row">
                 <div class="col-sm-6 col-sm-push-5">
@@ -353,7 +352,7 @@
             </div>
           </div>
           <!--list 4-->
-          <div class="work-list">
+          <div class="work-list wow fadeInUp">
             <div class="work-item">
               <div class="row">
                 <div class="col-sm-6 col-sm-push-1">
@@ -380,8 +379,8 @@
       <!-- Contact -->
       <div class="contact">
         <div class=" container ">
-          <h2 class="subtitle u-text-center" style="color: #DBEAF6;">CONTACT</h2>
-          <form action="" class="form">
+          <h2 class="subtitle u-text-center wow tada" style="color: #DBEAF6;">CONTACT</h2>
+          <form action="" class="form wow fadeInUpBig">
             <label for="">Name *</label>
             <input type="text" placeholder="Your Name...">
             <label for="">Email *</label>
@@ -389,10 +388,10 @@
             <label for="">Message *</label>
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
             <div class="btn-group btn-group--center form_btn-group">
-              <input type="submit" class="btn btn_align btn--md" value="Send">
+              <input type="submit" class="btn btn_align btn--md wow bounce" value="Send">
             </div>
           </form>
-          <div class="divide-text">
+          <div class="divide-text wow fadeInUp">
             <i class="icon  icon-heart"></i>OR YOU CAN
             <i class="icon  icon-heart"></i>
           </div>
@@ -401,20 +400,20 @@
               <a href="mailTo:chiandeye@gmail.com">chiandeye@gmail.com</a>
             </div> -->
             <div class="social-bar">
-              <a href="mailTo:chiandeye@gmail.com" target="_blank" class="icon-btn">
+              <a href="mailTo:chiandeye@gmail.com" target="_blank" class="icon-btn wow fadeInUp" data-wow-delay="0.2s">
                 <i class="icon  icon-mail-1"></i>
               </a>
-              <a href="https://facebook.com/chiandeye" target="_blank" class="icon-btn">
+              <a href="https://facebook.com/chiandeye" target="_blank" class="icon-btn wow fadeInUp" data-wow-delay="0.4s">
                 <i class="icon  icon-facebook-squared"></i>
               </a>
-              <a href="https://medium.com/chiandeye" target="_blank" class="icon-btn" style="
+              <a href="https://medium.com/chiandeye" target="_blank" class="icon-btn wow fadeInUp" data-wow-delay="0.6s" style="
     margin-left: 2px;">
                 <i class="icon icon-medium"></i>
               </a>
               </a>
             </div>
           </div>
-          <div class="divide-text2">Get In Touch
+          <div class="divide-text2 wow tada" data-wow-delay="1s">Get In Touch
             <i class="icon  icon-emo-grin"></i>
           </div>
         </div>
@@ -425,6 +424,10 @@
       <p class="copyright ">Copyright © 2018 chiandeye</p>
     </footer>
   </div>
+  <!-- JS -->
+  <script src="js/jquery-2.0.2.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/all.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102157076-3 "></script>
   <script>
