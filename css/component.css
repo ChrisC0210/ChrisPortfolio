@@ -299,8 +299,8 @@ About Chris C.
 
 @media (max-width: 375px) {
   .fab_icon {
-    top: 76%;
-    left: 80%;
+    top: 80%;
+    left: 84%;
   }
 }
 
@@ -322,6 +322,7 @@ About Chris C.
   width: 100%;
   display: block;
   filter: opacity(80%) blur(2px);
+  border-radius: 16px;
 }
 
 .bg {
