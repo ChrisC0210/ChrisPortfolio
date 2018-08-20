@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   //header color changed
     $(window).on("scroll", function () {
         var scrollDistance = $(window).scrollTop();
