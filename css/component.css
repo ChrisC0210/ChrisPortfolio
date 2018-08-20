@@ -933,6 +933,7 @@ About Chris C.
 .contact {
   padding: 80px 0 80px 0;
   margin: auto;
+  font-family: 'Open Sans', 'roboto', arial, sans-serif, 微軟正黑體;
 }
 
 @media (max-width: 768px) {
